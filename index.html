@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconstyle.css">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+    <div class="wrapper">
+        <heder class="header">
+            <div class="header__container container">
+                <div class="header__body">
+                    <div class="header__name">
+                        <div class="header__name-photo"><img class="header__name-photo-me" src="img/Header/photo.jpg"
+                                alt=""></div>
+                        <p class="headaer__name-name"><span>Новиков</span> Илья</p>
+                    </div>
+                    <div class="header__body-logo"><img src="img/Header/headerlogo.svg" alt=""></div>
+                    <button class="header__body-btn icon-profile btnhover"><span>Панель управления</span></button>
+                </div>
+            </div>
+        </heder>
+        <main class="main">
+            <div class="main__container container">
+                <h1 class="main__logo">Добро пожаловать в академию!</h1>
+                <div class="main__card card">
+                    <div class="card__photo">
+                        <img src="img/Header/photo.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <div class="card__header">
+                            <div class="card__name">Илья Новиков</div>
+                            <div class="card__date">18.12.1997</div>
+                        </div>
+                        <div class="card__body">
+                            <div class="card__info-row info-row">
+                                <div class="info-row__item"><span>Город:</span>Томск</div>
+                                <div class="info-row__item"><span>Пол:</span>Мужской<span class="icon-vector"></span>
+                                </div>
+                                <div class="info-row__item"><span>Возраст:</span>24</div>
+                            </div>
+                            <div class="card__info-me">
+                                <p><span>О себе:</span> Доброго времени суток! Меня зовут Илья, мне 24 года, учусь в
+                                    институте на специальность «Информационные системы и технологии». Поставил себе цель
+                                    стать отличным Frontend разработчиком. Было бы очень круто попасть к вам на
+                                    стажировку. А еще я очень веселый и коммуникабельный и у меня есть большой кот, ну
+                                    прям очень большой. Если интересно пригласите меня на собеседования и я покажу вам
+                                    фотографию БОЛЬШОГО кота. </p>
+                            </div>
+                        </div>
+                        <div class="card__footer icon-dog-food"><span>Домашнее животное:</span> есть кот гигант</div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__slider slider">
+                <div class="slider-container slider-wrapper">
+                    <div class="slider__card card-slider">
+                        <div class="card-slider__header ">
+                            <h2 class="card-slider__header-logo">Отзывы</h2>
+                            <div class="card-slider__header-btn-add">
+                                <button class="card-slider__header-btn icon-add popup-btn btnhover"><span>Добавить
+                                        отзыв</span></button>
+                            </div>
+                        </div>
+                        <div class="card-slider__body body-card swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide-desktop">
+                                    <div class="body-card__item item item-main">
+                                        <div class="item__header">
+                                            <div class="item__header-name name">
+                                                <div class="name__photo"> <img src="img/reviews/avatar1.jpg" alt="">
+                                                </div>
+                                                <div class="name__name">Буба Бубенцов</div>
+                                            </div>
+                                            <div class="item__header-date">
+                                                <div class="item__header-time"> 08.01.2022</div>
+                                            </div>
+                                        </div>
+                                        <div class="item__body">
+                                            <div class="item__body-text">
+                                                Отличный коллектив, руководители понимают сам процесс работы каждого
+                                                сотрудника
+                                                и помогают всем без исключения. Система KPI позволяет реально хорошо
+                                                зарабатывать по простому принципу - чем больше и лучше ты работаешь, тем
+                                                больше
+                                                денег получаешь. Соцпакет - отличная страховка ДМС, организовали курсы
+                                                английского языка бесплатно, оплачивают тренажерный зал. Зарплату
+                                                выплачивают
+                                                всегда вовремя.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-card__item item item-dop">
+                                        <div class="item__header">
+                                            <div class="item__header-name name">
+                                                <div class="name__photo"> <img src="img/reviews/avatar1.jpg" alt="">
+                                                </div>
+                                                <div class="name__name">Илья Анташкевич</div>
+                                            </div>
+                                            <div class="item__header-date">
+                                                <div class="item__header-time"> 08.01.2022</div>
+                                            </div>
+                                        </div>
+                                        <div class="item__body">
+                                            <div class="item__body-text">
+                                                Год назад попытал счастье, откликнулся на вакансию, прошел собес и попал
+                                                в компанию. Долго переживал что будет тяжело влиться, но тут прям
+                                                классные ребята работают, все на одной волне. Всегда готовы помочь с
+                                                любым вопросом. Для эффективной работы здесь нужно хорошо знать
+                                                иностранные языки.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-desktop">
+                                    <div class="body-card__item item item-main">
+                                        <div class="item__header">
+                                            <div class="item__header-name name">
+                                                <div class="name__photo"> <img src="img/reviews/avatar2.jpg" alt="">
+                                                </div>
+                                                <div class="name__name">Юрина Маргарита</div>
+                                            </div>
+                                            <div class="item__header-date">
+                                                <div class="item__header-time">26.12.2021</div>
+                                            </div>
+                                        </div>
+                                        <div class="item__body">
+                                            <div class="item__body-text">
+                                                Наша компания благодарна фирме ilink за сотрудничество. Хотелось бы
+                                                отметить отличную работу сотрудников: все было выполнено качественно, со
+                                                знанием дела, в установленные сроки. За время работы с компанией
+                                                значительно увеличилась аудитория, сайт приносит стабильный доход,
+                                                контент уникальный, грамотный и качественный. Будет продолжать работу и
+                                                дальше. Мы довольны, что доверили создание сайта компании ilink.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-card__item item item-dop">
+                                        <div class="item__header">
+                                            <div class="item__header-name name">
+                                                <div class="name__photo"> <img src="img/reviews/avatar3.jpg  "
+                                                        alt="">
+                                                </div>
+                                                <div class="name__name">Дмитрий Иванов</div>
+                                            </div>
+                                            <div class="item__header-date">
+                                                <div class="item__header-time"> 16.12.2021</div>
+                                            </div>
+                                        </div>
+                                        <div class="item__body">
+                                            <div class="item__body-text">
+                                                Отвечала за найм и адаптацию сотрудников в компании, за поддержание на
+                                                нужном уровне HR-бренда и трудового настроя коллектива. В компанию
+                                                пришла без опыта работы HR-ом. Всему научилась здесь. Как теории, так и
+                                                практике. Набрала опыт достаточно быстро. Есть программа обучения,
+                                                поощряются различные курсы, и это большой плюс. В коллективе очень
+                                                дружная атмосфера. Все дружелюбные, амбициозные.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-desktop slider-dop">
+                                    <div class="body-card__item item item-main">
+                                        <div class="item__header">
+                                            <div class="item__header-name name">
+                                                <div class="name__photo"> <img src="img/reviews/avatar1.jpg" alt="">
+                                                </div>
+                                                <div class="name__name">Илья Анташкевич</div>
+                                            </div>
+                                            <div class="item__header-date">
+                                                <div class="item__header-time"> 08.01.2022</div>
+                                            </div>
+                                        </div>
+                                        <div class="item__body">
+                                            <div class="item__body-text">
+                                                Год назад попытал счастье, откликнулся на вакансию, прошел собес и попал
+                                                в компанию. Долго переживал что будет тяжело влиться, но тут прям
+                                                классные ребята работают, все на одной волне. Всегда готовы помочь с
+                                                любым вопросом. Для эффективной работы здесь нужно хорошо знать
+                                                иностранные языки.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-desktop slider-dop">
+                                    <div class="body-card__item item item-main">
+                                        <div class="item__header">
+                                            <div class="item__header-name name">
+                                                <div class="name__photo"> <img src="img/reviews/avatar3.jpg" alt="">
+                                                </div>
+                                                <div class="name__name">Дмитрий Иванов</div>
+                                            </div>
+                                            <div class="item__header-date">
+                                                <div class="item__header-time"> 16.12.2021</div>
+                                            </div>
+                                        </div>
+                                        <div class="item__body">
+                                            <div class="item__body-text">
+                                                Отвечала за найм и адаптацию сотрудников в компании, за поддержание на
+                                                нужном уровне HR-бренда и трудового настроя коллектива. В компанию
+                                                пришла без опыта работы HR-ом. Всему научилась здесь. Как теории, так и
+                                                практике. Набрала опыт достаточно быстро. Есть программа обучения,
+                                                поощряются различные курсы, и это большой плюс. В коллективе очень
+                                                дружная атмосфера. Все дружелюбные, амбициозные.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-paginatinon"></div>
+                        </div>
+                    </div>
+                    <div class="slider__btn-row">
+                        <div class="slider__btn">
+                            <button class="slider__btn-left arrow-left "></button>
+                            <button class="slider__btn-right arrow-right"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__cotainer container">
+                <div class="footer__body">
+                    <div class="footer__copyrigh">© iLINK ACADEMY. ALL RIGHTS RESERVED. 2022</div>
+                    <div class="footer__link link-row">
+                        <a href="" class="link-items icon-fb"></a>
+                        <a href="" class="link-items icon-robo"></a>
+                        <a href="" class="link-items icon-inst"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="popup">
+            <div class="popup__block">
+                <div class="popup__card">
+                    <div class="popup__header">
+                        <h3 class="popup__logo">Отзыв</h3>
+                        <a id="closepopup" class="popup__close icon-close"></a>
+                    </div>
+                    <div class="popup__body">
+                        <form action="#" method="post" class="popup__form form">
+                            <h4 class="form-submit">Как вас зовут?</h4>
+                            <div class="form-field">
+                                <input type="text" name="username" value="" placeholder="Имя Фамилия"
+                                    class="form-field__name">
+                                <button class="form-loading icon-add  btnhover">Загрузить фото</button>
+                            </div>
+                            <div class="form-text">
+                                <h4 class="form-submit">Все ли вам понравилось?</h4>
+                                <textarea name="text" placeholder="Напишите пару слов о вашем опыте..."
+                                    class="form-text__comment"></textarea>
+                            </div>
+                            <div class="form-btn">
+                                <button class="form-btn__loading  btnhover">Отправить отзыв</button>
+                                <div class="form-btn__info">Все отзывы проходят модерацию в течение 2 часов</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/skript.js"></script>
+</body>
+
+</html>
